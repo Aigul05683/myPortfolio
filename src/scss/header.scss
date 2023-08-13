@@ -1,0 +1,23 @@
+header{
+    background: rgb(27, 85, 63);
+    
+    border-bottom: 1px solid rgb(209, 208, 151);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    &__menu{
+        line-height: 80px;
+        &_link{
+        margin: 10px;
+        display: inline-block;
+        color: rgb(207, 201, 189);
+        text-decoration: none;
+        font-size: 20px;
+    } 
+    }
+   
+    &__logo_img{
+        width: 100px;
+    }
+}
