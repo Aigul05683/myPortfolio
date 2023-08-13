@@ -80,7 +80,7 @@ header {
 .projects {
   background: hsl(240, 10.91%, 78.43%);
   color: rgb(42, 96, 61);
-  height: 714px;
+  min-height: 714px;
   text-align: center;
   padding: 20px;
 }
@@ -90,12 +90,14 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 .projects__block_box {
   height: 300px;
-  width: 30%;
+  width: 300px;
   margin: 10px;
   border-radius: 15px;
   background-color: rgba(35, 109, 49, 0.378);

@@ -40,17 +40,18 @@
 .projects{
     background: hsl(240deg 10.91% 78.43%);
     color:rgb(42, 96, 61);
-    height: 714px;
+    min-height: 714px;
     text-align: center;
     padding: 20px;
     &__block{
         width: 70%;
         margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         &_box{
             height: 300px;
-            width: 30%;
+            width: 300px;
             margin: 10px;
             border-radius: 15px;
             background-color: rgba(35, 109, 49, 0.378);
